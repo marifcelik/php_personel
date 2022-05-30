@@ -20,5 +20,4 @@ if (isset($_POST['rmid'])) {
         </div>
     <?php die($e . '<br><br><a class=" button button-primary" href="index.php">ana sayfa</a><br>');
     }
-    header('Refresh:3, URL=index.php');
 } ?>
