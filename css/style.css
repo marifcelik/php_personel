@@ -1,0 +1,90 @@
+.container {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.basarili, .hata {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    border-radius: 10px;
+    width: 30%;
+    height: 70px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.basarili {
+    background-color: #00c1f3;
+}
+
+.hata {
+    background-color: #eb2e49;
+}
+
+.green {
+    background-color: #00de23 !important;
+    border-color: #00de23 !important;
+}
+
+.green:hover {
+    background-color: #13c22d !important;
+    border-color: #13c22d !important;
+}
+
+.red {
+    background-color: #eb2e49 !important;
+    border-color: #eb2e49 !important;
+}
+
+.red:hover {
+    background-color: #cc3b51 !important;
+    border-color: #cc3b51 !important;
+}
+
+table {
+    margin-top: 20px;
+}
+
+td {
+    hyphens: auto;
+    word-break: break-all;
+}
+
+img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.form {
+    margin: 30px auto;
+    width: 70% !important;
+}
+
+.form input[type="text"] {
+    text-align: center !important;
+}
+
+.teldiv {
+    display: flex !important;
+}
+
+.form .butons {
+    margin-top: 15px;
+}
+
+.rm-form {
+    display: inline-block;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+}
+
+.rm-form label {
+    display: inline-flex;
+    width: 24px;
+    height: 24px;
+}
