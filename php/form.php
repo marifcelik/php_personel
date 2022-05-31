@@ -25,7 +25,7 @@
             echo '<div class="hata">';
             echo '    bu sayfaya giriş yetkiniz yok!';
             echo '</div>';
-            header('Refresh:3, URL=index.php');
+            header('Refresh:3, URL=/index.php');
             die();
         }
 
@@ -67,7 +67,7 @@
             <input type="hidden" name="<?= isset($_GET['id']) ? 'update' : 'add' ?>" value="<?= $_GET['id'] ?? '1' ?>">
             <div class="butons">
                 <input type="submit" class="button-primary" value="<?= isset($_GET['id']) ? 'güncelle' : 'ekle' ?>">
-                <a class="button button-primary red" href="index.php">ana sayfa</a>
+                <a class="button button-primary red" href="../index.php">ana sayfa</a>
             </div>
         </form>
     </div>

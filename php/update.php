@@ -15,7 +15,7 @@ if (isset($_POST['update'])) {
         echo '<div class="hata">';
         echo '    hata : değerlerden biri boş ya da hatalı';
         echo '</div>';
-        echo '<a class=" button button-primary" href="index.php">ana sayfa</a>';
+        echo '<a class=" button button-primary" href="../index.php">ana sayfa</a>';
         echo '<a class=" button button-primary" href="form.php">tekrarla</a>';
         die();
     }
@@ -31,7 +31,7 @@ if (isset($_POST['update'])) {
         echo '<div class="hata">';
         echo '    bir hata oluştu';
         echo '</div>';
-        echo '<a class=" button button-primary" href="index.php">ana sayfa</a><br>';
+        echo '<a class=" button button-primary" href="../index.php">ana sayfa</a><br>';
         die($e);
     }
 }

@@ -2,7 +2,7 @@
 require_once './control.php';
 
 if (isset($_SESSION['yetki']))
-    header('URL=/final/php');
+    header('URL=/index.php');
 ?>
 <!DOCTYPE html>
 <html lang="tr">
@@ -35,7 +35,7 @@ if (isset($_SESSION['yetki']))
             </div>
             <!-- kontrol için gizli değişken -->
             <input type="hidden" name="login" value="1">
-            <a class="button button-primary red" href="./index.php">ana sayfa</a>
+            <a class="button button-primary red" href="../index.php">ana sayfa</a>
             <button class="button-primary" type="submit">giriş yap</button>
         </form>
         <?php if (isset($_GET['hata'])) { ?>

@@ -18,6 +18,6 @@ if (isset($_POST['rmid'])) {
         <div class="hata">
             bir hata oluştu
         </div>
-    <?php die($e . '<br><br><a class=" button button-primary" href="index.php">ana sayfa</a><br>');
+    <?php die($e . '<br><br><a class=" button button-primary" href="../index.php">ana sayfa</a><br>');
     }
 } ?>

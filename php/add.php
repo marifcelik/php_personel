@@ -14,8 +14,8 @@ if (isset($_POST['add'])) {
         <div class="hata">
             hata : değerlerden biri boş ya da hatalı
         </div>
-        <a class=" button button-primary" href="index.php">ana sayfa</a>
-        <a class=" button button-primary" href="form.php">tekrarla</a>
+        <a class=" button button-primary" href="../index.php">ana sayfa</a>
+        <a class=" button button-primary" href="./form.php">tekrarla</a>
     <?php die();
     }
 
@@ -29,7 +29,7 @@ if (isset($_POST['add'])) {
         <div class="hata">
             bir hata oluştu
         </div>
-        <a class=" button button-primary" href="index.php">ana sayfa</a><br>
+        <a class=" button button-primary" href="../index.php">ana sayfa</a><br>
 <?php die($e);
     }
 } ?>

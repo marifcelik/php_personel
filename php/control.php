@@ -10,7 +10,7 @@ if (!isset($_SESSION['yetki']))
 // oturum açılmışsa ve çıkış isteği gönderilmişse çıkış yapıyorum
 if(isset($_SESSION['yetki']) && isset($_GET['cikis'])) {
     session_destroy();
-    header('Location:index.php');
+    header('Location:../index.php');
 }
 
 //oturum açma isteği
@@ -24,7 +24,7 @@ if(isset($_POST['login'])) {
     if ($sorgu) {
         session_start();
         $_SESSION['yetki'] = 1;
-        header('Location:index.php');
+        header('Location:../index.php');
     }
     else {
         // eşleşmemişse logine get ile hata gönderiyorum
