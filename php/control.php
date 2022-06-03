@@ -1,6 +1,5 @@
 <?php
-require_once './baglan.php';
-
+include './baglan.php';
 // başlangıçta oturumu başlatıp yetkiyi kontrol ediyorum. yetki yoksa oturum açılmamış demektir
 // her sayfada control u include ettiğimden bunu yapmam lazım yoksa diğer sayfalarda session başlamıyor.
 session_start();

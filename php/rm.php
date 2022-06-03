@@ -1,5 +1,4 @@
 <?php
-require_once './baglan.php';
 
 // formdan yolladığım gizli input value sunu kotrol ediyorum
 if (isset($_POST['rmid'])) {
