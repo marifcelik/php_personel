@@ -1,3 +1,3 @@
 ## php_personel
 
-mysql kullanarak yaptığım basit bir takip programı
+php ve mysql kullanarak yaptığım basit bir takip programı
